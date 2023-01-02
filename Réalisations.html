@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        Tony Finucci - Réalisations
+    </title>
+    <head>
+        <link rel="stylesheet" href="css/Realisation.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    </head>
+    <header>
+      
+      <div id="nav" class="nav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="./Index.html"><i class="material-icons">home</i> Accueil</a>
+        <a href="./Formation.html"><i class="material-icons">school</i> Formations</a>
+        <a href="./Compétences.html"><i class="material-icons">list_alt</i> Compétences</a>
+        <a href="#" class=selected><i class="material-icons">computer</i> Réalisations</a>
+        <a href="./Contacts.html"><i class="material-symbols-outlined">person</i> Contacts</a>
+      </div>
+
+      
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+      <script>
+        function openNav() {
+          document.getElementById("nav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("nav").style.width = "0";
+        }
+        </script></header>
+    <body>
+      <div class = "titre">
+        <h1> Mes Réalisations </h1>
+    </div>
+
+            
+            <div class = projets>
+              <h2>Projets Universitaire</h2>
+              <div class = Web>
+                <img src="./images/Realisations/Projet web entreprise/accueil.PNG" alt="NID" style="width:300px;height:250px;" onclick="openModalWeb();currentSlide(1)"  class="hover-shadow cursor"/>
+                <h4>Projet site internet d'une entreprise "fictive"</h4>
+              </div>
+
+            </div>
+
+            <div class = "projets">
+            <h2> Projets Personnels</h2>
+            <div class = Personnels>
+                <div class = FNIEQG>
+                    <img src="./images/Realisations/fnaffangameproject/Now in Development teaser.png" style="width:300px;height:250px;"  onclick="openModalFNIEQG();currentSlide(1)"  class="hover-shadow cursor"/>
+                    <h4>Projet FanGame "FNAF"</h4>
+                  </div>
+
+                <div class = platformtest>
+                  <img src="./images/Realisations/TestPlatforme/plaformetest.PNG" style = "width:300px;height:250px;" onclick="openModalPlat();currentSlide(1)"  class="hover-shadow cursor" />
+                    <h4>Test d'un jeu de platforme</h4>
+                </div>
+
+                <div class = cassebriquetest>
+                  <img src="./images/Realisations/TestCasseBrique.PNG" style="width:300px;height:250px;" onclick="openModalBrique();currentSlide(1)"  class="hover-shadow cursor" />
+                    <h4>Test d'un jeu de casse-briques</h4>
+                </div>
+              </div>
+            </div>
+
+          
+
+
+<div id="galleryFNIEQG" class="modal">
+  <span class="close cursor" onclick="closeModalFNIEQG()">&times;</span>
+  <div class="modal-content">
+
+    <div class="SlidesFNIEQG">
+      <div class="numbertext">1 / 7</div>
+      <img src="./images/Realisations/fnaffangameproject/Now in Development teaser.png" style="width:100%">
+    </div>
+
+    <div class="SlidesFNIEQG">
+      <div class="numbertext">2 / 7</div>
+      <img src="./images/Realisations/fnaffangameproject/campfiremap.PNG" style="width:100%">
+    </div>
+
+    <div class="SlidesFNIEQG">
+      <div class="numbertext">3 / 7</div>
+      <img src="./images/Realisations/fnaffangameproject/Final Night Corridor teaser.png" style="width:100%">
+    </div>
+    
+    <div class="SlidesFNIEQG">
+      <div class="numbertext">4 / 7</div>
+      <img src="./images/Realisations/fnaffangameproject/finalnightteaseredit.png" style="width:100%">
+    </div>
+
+    <div class="SlidesFNIEQG">
+      <div class="numbertext">5 / 7</div>
+      <img src="./images/Realisations/fnaffangameproject/Camerascreen.PNG" style="width:100%">
+    </div>
+
+    <div class="SlidesFNIEQG">
+      <div class="numbertext">6 / 7</div>
+      <img src="./images/Realisations/fnaffangameproject/office.PNG" style="width:100%">
+    </div>
+
+    <div class="SlidesFNIEQG">
+      <div class="numbertext">7 / 7</div>
+      <img src="./images/Realisations/fnaffangameproject/controlpaneloffice.PNG" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlidesFNIEQG(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlidesFNIEQG(1)">&#10095;</a>
+
+    <div class="FNIEQGinfo">
+      <p>Nom définitif: "Toujours en réflexion"</p>
+      <p>Date de début: fin juin 2021</p>
+      <p>Status: En cours de Développemnt</p>
+      <p></p>
+      <p>Logiciel utilisé :</p>
+      <ul>
+        <li>Développement: Clickteam Fusion</li>
+        <li>Animations, visuels : Source Filmmaker, paint.net</li>
+
+        <p>étant un fan de la serie de jeu "Five Nights at Freddy's, je me suis donné comme défi de réaliser un jeu en reprenant ses mécaniques à ma façon</p>
+      </ul>
+
+    </div>
+
+  </div>
+</div>
+<div id="galleryPlat" class="modal">
+  <span class="close cursor" onclick="closeModalPlat()">&times;</span>
+  <div class="modal-content">
+
+    <div class="SlidesPlat">
+      <div class="numbertext">1 / 5</div>
+      <img src="./images/Realisations/TestPlatforme/plaformetest.PNG" style="width:100%">
+    </div>
+
+    <div class="SlidesPlat">
+      <div class="numbertext">2 / 5</div>
+      <img src="./images/Realisations/TestPlatforme/plaformetest2.PNG" style="width:100%">
+    </div>
+
+    <div class="SlidesPlat">
+      <div class="numbertext">3 / 5</div>
+      <img src="./images/Realisations/TestPlatforme/plaformetest3.PNG" style="width:100%">
+    </div>
+    
+    <div class="SlidesPlat">
+      <div class="numbertext">4 / 5</div>
+      <img src="./images/Realisations/TestPlatforme/plaformetest4.PNG" style="width:100%">
+    </div>
+
+    <div class="SlidesPlat">
+      <div class="numbertext">5 / 5</div>
+      <img src="./images/Realisations/TestPlatforme/plaformetest5.PNG" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlidesPlat(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlidesPlat(1)">&#10095;</a>
+
+    <div class="Platinfo">
+      <p>Nom : "Test jeu platforme"</p>
+      <p>Date de début: vers 2018-2019</p>
+      <p>Status: Arreté (fichier source perdu ou corrompu)</p>
+      <p></p>
+      <p>Logiciel utilisé :</p>
+      <ul>
+        <li>Développement: Clickteam Fusion</li>
+        <li>Visuels: paint.net</li>
+      </ul>
+      <p></p>
+
+    </div>
+
+  </div>
+</div>
+<div id="galleryBrique" class="modal">
+  <span class="close cursor" onclick="closeModalBrique()">&times;</span>
+  <div class="modal-content">
+
+    <div class="SlidesBrique">
+      <div class="numbertext">1 / 2</div>
+      <img src="./images/Realisations/TestCasseBrique.PNG" style="width:100%">
+    </div>
+
+    <div class="SlidesBrique">
+      <div class="numbertext">2 / 2</div>
+      <img src="./images/Realisations/TestCasseBrique2.PNG" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlidesBrique(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlidesBrique(1)">&#10095;</a>
+
+    <div class="Briqueinfo">
+      <p>Nom : "Test jeu de casse brique"</p>
+      <p>Date de début: vers 2018</p>
+      <p>Status: Terminé</p>
+      <p></p>
+      <p>Logiciel utilisé :</p>
+      <ul>
+        <li>Développement: Clickteam Fusion</li>
+        <li>Visuels: paint.net</li>
+
+        <p>Ceci est mon tout premier projet de jeu réalisé sous Clickteam Fusion, je l'ai réalisé en utilisant un fichier tutoriel qui me montrait les différents fonctionalités du locigiel</p>
+      </ul>
+      <p></p>
+
+    </div>
+    <div id="galleryWeb" class="modal">
+      <span class="close cursor" onclick="closeModalWeb()">&times;</span>
+      <div class="modal-content">
+    
+        <div class="SlidesWeb">
+          <div class="numbertext">1 / 1</div>
+          <img src="./images/Realisations/Projet web entreprise/accueil.PNG" style="width:100%">
+        </div>
+    
+      
+        <a class="prev" onclick="plusSlidesWeb(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlidesWeb(1)">&#10095;</a>
+    
+        <div class="Webinfo">
+          <p>Nom : Site web d'entreprise Fictif</p>
+          <p>Date: Année 1, Semestre 1  </p>
+          <p>Status: Terminé</p>
+          <p></p>
+          <p>Logiciel utilisé :</p>
+          <ul>
+            <li>Développement: Visual Studio Code</li>
+            <li>Langages : HTML, CSS</li>
+            <li>Visuels: paint.net</li>
+          </ul>
+          <p>Informations :</p>
+          <p>Le but de ce projet était de pratiquer le code HTML et CSS dont l'objectif était de crée un site Web
+             d'une entreprise qu'on a inventés<p>
+          <p></p>
+    
+        </div>
+  </div>
+</div>
+
+
+
+<script>
+  var slideIndex = 1;
+  var type;
+function openModalFNIEQG() {
+  document.getElementById("galleryFNIEQG").style.display = "block";
+  type = 1
+  showSlides(slideIndex, 1);
+}
+
+function openModalPlat() {
+  document.getElementById("galleryPlat").style.display = "block";
+  type = 2
+  showSlides(slideIndex, 2);
+}
+
+function openModalBrique() {
+  document.getElementById("galleryBrique").style.display = "block";
+  type = 3
+  showSlides(slideIndex, 3);
+}
+
+function openModalWeb() {
+  document.getElementById("galleryWeb").style.display = "block";
+  type = 4
+  showSlides(slideIndex, 4);
+}
+
+
+function closeModalFNIEQG() {
+  document.getElementById("galleryFNIEQG").style.display = "none";
+}
+
+function closeModalPlat() {
+  document.getElementById("galleryPlat").style.display = "none";
+}
+
+function closeModalBrique() {
+  document.getElementById("galleryBrique").style.display = "none";
+}
+
+function closeModalWeb() {
+  document.getElementById("galleryWeb").style.display = "none";
+}
+
+
+
+function plusSlidesFNIEQG(n) {
+  type = 1
+  showSlides(slideIndex += n, type);
+}
+
+function plusSlidesPLat(n) {
+  type = 2
+  showSlides(slideIndex += n, type);
+}
+
+function plusSlidesBrique(n) {
+  type = 3
+  showSlides(slideIndex += n, type);
+}
+
+function plusSlidesWeb(n) {
+  type = 4
+  showSlides(slideIndex += n, type);
+}
+
+function currentSlideFNIEQG(n) {
+  type = 1
+  showSlides(slideIndex = n, type);
+}
+
+function currentSlidePlat(n) {
+  type = 2
+  showSlides(slideIndex = n, type);
+}
+
+function currentSlideBrique(n) {
+  type = 3
+  showSlides(slideIndex = n, type);
+}
+
+function currentSlideWeb(n) {
+  type = 4
+  showSlides(slideIndex = n, type);
+}
+
+
+function showSlides(n, type) {
+  var i;
+  var slides;
+  if(type == 1){
+    slides = document.getElementsByClassName("SlidesFNIEQG");
+  }
+  else if(type == 2){
+    slides = document.getElementsByClassName("SlidesPlat");
+  }
+  else if(type == 3){
+    slides = document.getElementsByClassName("SlidesBrique");
+  }
+  else if(type == 4){
+    slides = document.getElementsByClassName("SlidesWeb");
+  }
+  var dots = document.getElementsByClassName("");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  
+}
+
+
+</script>
+    </body>
+</html>
