@@ -245,9 +245,29 @@
     
         </div>
   </div>
+  
 </div>
 
+<div id="gallerybdd" class="modal">
+  <span class="close cursor" onclick="closeModalbdd()">&times;</span>
+  <div class="modal-content">
+    <div class="sqlinfo">
+      <p>Projet de création d'une base de données - Theme parcoursup</p>
+      <p>Date: Année 1, Semestre 2  </p>
+      <p>Status: Terminé</p>
+      <p></p>
+      <p>Logiciel utilisé :</p>
+      <ul>
+        <li>Développement: Visual Studio Code</li>
+        <li>Langages : SQL</li>
+        <li>Autre Outil : Git</li>
+      </ul>
+      <p>Informations :</p>
+      <p>Le but de ce projet était crée une base de données SQL avec les données excel trouvable sur parcoursup<p>
+      <p></p>
 
+    </div>
+</div>
 
 <script>
   var slideIndex = 1;
@@ -256,6 +276,10 @@ function openModalFNIEQG() {
   document.getElementById("galleryFNIEQG").style.display = "block";
   type = 1
   showSlides(slideIndex, 1);
+}
+
+function openModalsql() {
+  document.getElementById("galleryFNIEQG").style.display = "block";
 }
 
 function openModalPlat() {
@@ -291,6 +315,10 @@ function closeModalBrique() {
 
 function closeModalWeb() {
   document.getElementById("galleryWeb").style.display = "none";
+}
+
+function closeModalbdd() {
+  document.getElementById("gallerybdd").style.display = "none";
 }
 
 
