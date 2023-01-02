@@ -51,37 +51,15 @@ body {
       
     display: grid;
       grid-template-columns: auto auto auto auto;
-      padding: 5%;
+      padding: 2%;
+      padding-left: 10%;
       margin-top: 1%;
+      background-color: rgba(255, 68, 0, 0.596);
       align-items: center;
     
   }
 
-  .java{
-    background-color: rgb(117, 255, 198);
-    padding: 2%;
-    margin-left: 50%;   
- }
 
-  .html{
-    background-color: rgb(255, 156, 42);
-    padding: 2%;
-    margin-left: 50%;   
-  }
-
-  .css{
-    background-color: rgb(56, 42, 255);
-    padding: 3%;
-    padding-left: 3%;
-    margin-left: 60%;  
-    align-items: center; 
-  }
-
-  .sql{
-    background-color: rgb(96, 255, 81);
-    padding: 2%;
-    margin-left: 40%;
-  }
 
   .grid-container {
     display: grid;
