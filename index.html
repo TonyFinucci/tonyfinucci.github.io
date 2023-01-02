@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        Tony Finucci
+    </title>
+    <head>
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    </head>
+    <body>
+        <div id="nav" class="nav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#" class=selected><i class="material-icons">home</i> Accueil</a>
+            <a href="./Formation.html"><i class="material-icons">school</i> Formations</a>
+            <a href="./Compétences.html"><i class="material-icons">list_alt</i> Compétences</a>
+            <a href="./Réalisations.html"><i class="material-icons">computer</i> Réalisations</a>
+            <a href="./Contacts.html"><i class="material-symbols-outlined">person</i> Contacts</a>
+          </div>
+
+          <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+          <script>
+            function openNav() {
+              document.getElementById("nav").style.width = "250px";
+            }
+            
+            function closeNav() {
+              document.getElementById("nav").style.width = "0";
+            }
+            </script>
+
+            <section>
+              <div class = titre>
+                <h1> Tony Finucci </h1>
+                <h2> Etudiant en BUT Informatique</h2>
+                <a href = "./FINUCCI-CV.pdf"> Télécharger mon CV</a>
+              </div>
+            </section>
+
+            <div class = "presentation">
+              
+              <p>Bonjour à vous, je me présente je m'appelle Tony Finucci actuellement en 2ene année du BUT 
+              Informatique à l'IUT A de Lille à Villeneuve d'Ascq. </p>
+              
+              <p>J'ai choisi cette formation pour pouvoir apprendre et acquérir les compétences en ce qui concerne le
+              développement d'applications et de logiciels dans le but de viser un poste de développeur dans le 
+              domaine du jeux vidéo.</p>
+
+              <p>Hors des heures de formation, j’essaye de crée mes propres jeux avec des logiciels spécialisés
+              ou avec du code pour développer mon savoir faire.</p>
+
+              <p>Je suis actuellement à la recherche d’un stage pour mon année de BUT dans le domaine du développement web ou développement d'application qui aura lieu du 17 Avril au 23 Juin 2023.</p>
+              </div>
+    </body>
+</html>
