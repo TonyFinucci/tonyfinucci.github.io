@@ -257,7 +257,7 @@
       <img src="./images/Realisations/bdd.png" style="width:100%">
     </div>
 
-    <div class="sqlinfo">
+    <div class="bddinfo">
       <p>Projet de création d'une base de données - Theme parcoursup</p>
       <p>Date: Année 1, Semestre 2  </p>
       <p>Status: Terminé</p>
@@ -270,7 +270,7 @@
       </ul>
       <p>Informations :</p>
       <p>Le but de ce projet était crée une base de données SQL avec les données excel trouvable sur parcoursup<p>
-      <p></p>
+      <p> </p>
 
     </div>
 </div>
@@ -285,8 +285,10 @@ function openModalFNIEQG() {
   showSlides(slideIndex, 1);
 }
 
-function openModalsql() {
-  document.getElementById("galleryFNIEQG").style.display = "block";
+function openModalbdd() {
+  document.getElementById("gallerybdd").style.display = "block";
+  type = 5
+  showSlides(slideIndex, 5);
 }
 
 function openModalPlat() {
@@ -385,6 +387,9 @@ function showSlides(n, type) {
   }
   else if(type == 4){
     slides = document.getElementsByClassName("SlidesWeb");
+  }
+  else if(type == 5){
+    slides = document.getElementsByClassName("Slidesbdd");
   }
   var dots = document.getElementsByClassName("");
   if (n > slides.length) {slideIndex = 1}
