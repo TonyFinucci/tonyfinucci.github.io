@@ -49,7 +49,12 @@ body {
     color: white;
   }
 
-
+.univ{
+  display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-gap: 10%;
+    padding-left: 10%;
+}
 .Personnels{
     background-color: none;
     color: black;
