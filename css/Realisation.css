@@ -137,6 +137,7 @@ h2 .projets img:hover {
   height: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.384);
+  transition: 0.5s;
 }
 
 /* Modal Content */
