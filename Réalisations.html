@@ -50,6 +50,11 @@
                 <img src="./images/Realisations/bdd.png" alt="NID" style="width:300px;height:250px;" onclick="openModalbdd();currentSlide(1)"  class="hover-shadow cursor"/>
                 <h4>creation d'une base de donnée SQL - Theme parcoursup</h4>
               </div>
+
+              <div class = knn>
+                <img src="./images/Realisations/knn.png" alt="NID" style="width:300px;height:250px;" onclick="openModalknn();currentSlide(1)"  class="hover-shadow cursor"/>
+                <h4>Programme classification </h4>
+              </div>
               </div>
             </div>
 
@@ -277,6 +282,34 @@
 </div>
 </div>
 
+<div id="galleryknn" class="modal">
+  <span class="close cursor" onclick="closeModalknn()">&times;</span>
+  <div class="modal-content">
+
+    <div class="Slidesknn">
+      <div class="numbertext">1 / 1</div>
+      <img src="./images/Realisations/knn.png" style="width:100%">
+    </div>
+
+    <div class="knninfo">
+      <p>Programme classification</p>
+      <p>Date: Octobre 2022 - Novembre 2022  </p>
+      <p>Status: Terminé</p>
+      <p></p>
+      <p>Logiciel utilisé :</p>
+      <ul>
+        <li>Développement: Visual Studio Code</li>
+        <li>Langages : Java</li>
+        <li>Autre Outil : Git</li>
+      </ul>
+      <p>Informations :</p>
+      <p> le but de ce projet est de clarifier, compléter, collecter et formaliser le besoin, puis de développer une application communicante intégrant la manipulation des données et respectant les paradigmes de qualité<p>
+      <p> </p>
+
+    </div>
+</div>
+</div>
+
 <script>
   var slideIndex = 1;
   var type;
@@ -310,6 +343,12 @@ function openModalWeb() {
   showSlides(slideIndex, 4);
 }
 
+function openModalknn() {
+  document.getElementById("galleryknn").style.display = "block";
+  type = 6
+  showSlides(slideIndex, 6);
+}
+
 
 function closeModalFNIEQG() {
   document.getElementById("galleryFNIEQG").style.display = "none";
@@ -330,6 +369,11 @@ function closeModalWeb() {
 function closeModalbdd() {
   document.getElementById("gallerybdd").style.display = "none";
 }
+
+function closeModalknn() {
+  document.getElementById("galleryknn").style.display = "none";
+}
+
 
 
 
@@ -391,6 +435,9 @@ function showSlides(n, type) {
   }
   else if(type == 5){
     slides = document.getElementsByClassName("Slidesbdd");
+  }
+  else if(type == 6){
+    slides = document.getElementsByClassName("Slidesknn");
   }
   var dots = document.getElementsByClassName("");
   if (n > slides.length) {slideIndex = 1}
